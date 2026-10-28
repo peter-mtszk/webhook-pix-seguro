@@ -1,0 +1,16 @@
+{
+  "name": "webhook-pix-seguro",
+  "version": "1.0.0",
+  "description": "Recebimento seguro de avisos de pagamento Pix em Node.js: chave em tempo constante, avisos repetidos, estorno, links assinados que expiram e trava de tentativas.",
+  "main": "src/webhook.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node exemplo/servidor.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": ["pix", "webhook", "pagamentos", "seguranca", "nodejs"],
+  "author": "Peter Bueno",
+  "license": "MIT"
+}
